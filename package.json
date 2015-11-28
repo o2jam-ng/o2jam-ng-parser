@@ -1,0 +1,27 @@
+{
+  "name": "o2jam-ng-parser",
+  "version": "0.0.1",
+  "description": "Note file && music file parser for o2jam-ng project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o2jam-ng/o2jam-ng-parser.git"
+  },
+  "keywords": [
+    "音乐",
+    "音游",
+    "游戏",
+    "节奏",
+    "o2jam",
+    "o2jam-ng"
+  ],
+  "author": "xbdotl",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/o2jam-ng/o2jam-ng-parser/issues"
+  },
+  "homepage": "https://github.com/o2jam-ng/o2jam-ng-parser#readme"
+}
