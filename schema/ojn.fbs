@@ -1,0 +1,33 @@
+namespace O2jamNg;
+
+table OJNHeader {
+  songid: int;
+  signature: [byte];
+  encode_version: float;
+  genre: int;
+  bpm: float;
+  level: [short];
+  event_count: [int];
+  note_count: [int];
+  package_count: [int];
+  old_encode_version: short;
+  old_songid: short;
+  old_genre: [byte];
+  bmp_size: int;
+  old_file_version: int;
+  title: string;
+  artist: string;
+  noter: string;
+  ojm_file: string;
+  cover_size: string;
+  time: [int];
+  note_offset: [int];
+  cover_offset: int;
+}
+
+table OJN {
+  header: OJNHeader;
+  body: [byte];
+}
+ 
+root_type OJN;
